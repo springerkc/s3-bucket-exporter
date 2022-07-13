@@ -1,0 +1,35 @@
+{
+  "$metadata": {
+    "httpStatusCode": 200,
+    "extendedRequestId": "someSecretId",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "Contents": [
+    {
+      "Key": "some_image.jpg",
+      "LastModified": "2022-05-04T00:13:38.000Z",
+      "ETag": "\"659de6f000db018583e3aa56af14fcbc\"",
+      "Size": 12345,
+      "StorageClass": "STANDARD",
+      "Owner": {
+        "ID": "someId"
+      }
+    },
+    {
+      "Key": "another_image.jpg",
+      "LastModified": "2022-05-04T00:01:27.000Z",
+      "ETag": "\"167aa6a9a737830f8effec4a74c9d82e\"",
+      "Size": 12345,
+      "StorageClass": "STANDARD",
+      "Owner": {
+        "ID": "someID"
+      }
+    }
+  ],
+  "IsTruncated": true,
+  "Marker": "",
+  "MaxKeys": 4000,
+  "Name": "my.example.bucket",
+  "Prefix": ""
+}
