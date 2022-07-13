@@ -4,6 +4,7 @@ Simple ES6 ready solution to export AWS S3 bucket objects to json files
 
 ## Prerequisites 
 [Node v16.13.2](https://nodejs.org/en/download/)
+
 [yarn](https://classic.yarnpkg.com/en/docs/install)
 
 ## Setup
